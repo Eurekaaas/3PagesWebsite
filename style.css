@@ -1,0 +1,123 @@
+.navbar{
+  height: 15%;
+  width: 100%;
+  background-color: #9ac9e3;
+  display: flex;
+  justify-content: space-around;
+  font-size: 23px;
+  word-spacing: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.logo{
+  width: 4%;
+  height: 4%;
+  padding-top: 10px;
+}
+
+
+.navlinks a{
+  color: #1e577d;
+  text-decoration: none;
+}
+
+.p1content{
+  box-sizing: border-box;
+  padding-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.map{
+  padding-left: 30px;
+  padding-top: 20px;
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+
+.data{
+  position: relative;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 100px;
+  color: #084066;
+  font-weight: bold;
+}
+
+
+
+
+.bg{
+  background-color: #f5fcf9;
+  width: 100%;
+  height: 100%;
+}
+
+.info{
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  border: 3px solid #9ac9e3;
+  left: 50%;
+  width: 40%;
+  margin-top: 50px;
+  transform: translate(-50%);
+}
+
+.header{
+  padding: 20px;
+  color: #084066;
+}
+
+.paragraphs{
+  text-align: left;
+  text-indent: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 30px;
+  font-size: 18px;
+
+}
+
+
+
+
+
+.p3content{
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  border: 3px solid #9ac9e3;
+  left: 50%;
+  width: 70%;
+  margin-top: 50px;
+  transform: translate(-50%);
+  justify-content: space-around;
+  display: flex;
+  padding: 70px;
+}
+
+.inputbox{
+  text-align: left;
+  margin-top: 60px;
+  display: flex;
+  border: 3px solid #9ac9e3;
+  padding: 10px;
+  padding-left: 10px;
+  width: 250px;
+  font-size: 30px;
+}
+
+.calculation{
+  text-align: left;
+  display: flex;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.moneysign{
+  display: flex;
+  text-decoration: underline;
+  white-space: pre;
+}
