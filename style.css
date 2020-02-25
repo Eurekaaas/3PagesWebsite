@@ -1,82 +1,95 @@
+.bg{
+  background-color: #f5fcf9;
+  width: 100vw;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
 .navbar{
-  height: 15%;
-  width: 100%;
+  height: 10vh;
+  width: 100vw;
   background-color: #9ac9e3;
   display: flex;
   justify-content: space-around;
-  font-size: 23px;
-  word-spacing: 50px;
-  font-family: "Poppins", sans-serif;
+  font-size: 3vh;
+  word-spacing: 4.5vw;
   font-weight: bold;
 }
 
 .logo{
-  width: 4%;
-  height: 4%;
-  padding-top: 10px;
+  width: 4.5vw;
+  height: 10vh;
+  padding-top: 0.3vh;
 }
 
 
 .navlinks a{
   color: #1e577d;
   text-decoration: none;
+  font-size: 3vh;
+  justify-content: flex-end;
 }
+
+.navlinks a:hover{
+  color: white;
+}
+
 
 .p1content{
   box-sizing: border-box;
-  padding-bottom: 50px;
-  font-family: "Poppins", sans-serif;
+}
+
+.intro{
+  position: relative;
+  font-size: 2.5vh;
+  text-align: center;
+  padding: 4vh;
+  color: #084066;
 }
 
 .map{
-  padding-left: 30px;
-  padding-top: 20px;
+  padding-left: 2vw;
+  padding-top: 6vh;
   float: left;
-  width: 50%;
-  height: 50%;
+  width: 50vw;
+  height: 75vh;
 }
 
 .data{
   position: relative;
-  font-size: 28px;
+  font-size: 3vh;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 3vh;
   color: #084066;
   font-weight: bold;
+  flex-direction: column;
 }
 
-
-
-
-.bg{
-  background-color: #f5fcf9;
-  width: 100%;
-  height: 100%;
-}
 
 .info{
   box-sizing: border-box;
   position: relative;
   text-align: center;
   border: 3px solid #9ac9e3;
-  left: 50%;
-  width: 40%;
-  margin-top: 50px;
+  left: 50vw;
+  width: 40vw;
+  margin-top: 5vh;
   transform: translate(-50%);
 }
 
 .header{
-  padding: 20px;
+  padding: 3vh;
   color: #084066;
+  font-size: 4vh;
 }
 
 .paragraphs{
   text-align: left;
-  text-indent: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-  line-height: 30px;
-  font-size: 18px;
+  text-indent: 2vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  line-height: 5vh;
+  font-size: 2.5vh;
 
 }
 
@@ -89,34 +102,37 @@
   position: relative;
   text-align: center;
   border: 3px solid #9ac9e3;
-  left: 50%;
-  width: 70%;
-  margin-top: 50px;
+  left: 50vw;
+  width: 70vw;
+  margin-top: 10vh;
   transform: translate(-50%);
   justify-content: space-around;
   display: flex;
-  padding: 70px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .inputbox{
   text-align: left;
-  margin-top: 60px;
+  margin-top: 13vh;
   display: flex;
   border: 3px solid #9ac9e3;
-  padding: 10px;
-  padding-left: 10px;
-  width: 250px;
-  font-size: 30px;
+  padding: 1vh;
+  padding-left: 1vw;
+  width: 18vw;
+  font-size: 2.1vw;
 }
 
 .calculation{
   text-align: left;
   display: flex;
-  padding-top: 10px;
-  font-size: 20px;
+  padding-top: 1vh;
+  font-size: 1.4vw;
 }
 
-.moneysign{
+.underscore{
   display: flex;
   text-decoration: underline;
   white-space: pre;
